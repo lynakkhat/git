@@ -1,0 +1,31 @@
+body{
+    background-color: #ccc;
+}
+.container{
+    display: flex;
+    justify-content: space-between ;
+}
+.card{
+    width: 29%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.b2{
+    background-color: orange;
+
+}
+.b3{
+    background-color: purple;
+}
